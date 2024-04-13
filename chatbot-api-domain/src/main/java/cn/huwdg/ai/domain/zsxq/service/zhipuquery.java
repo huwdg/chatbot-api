@@ -28,8 +28,8 @@ import java.util.Map;
 
 @Service
 public class zhipuquery implements Izhipuquery {
-    private static final String API_KEY = "e6592c3bef8f90fc093180857352428a";
-    private static final String API_SECRET = "NU8SeQAl1nANYxJw";
+    private static final String API_KEY = "";
+    private static final String API_SECRET = "";
     private static final ClientV4 client = new ClientV4.Builder(API_KEY,API_SECRET).build();
 
     private static final ObjectMapper mapper = defaultObjectMapper();
