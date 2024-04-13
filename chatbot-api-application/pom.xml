@@ -7,10 +7,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>chatbot-api-aplication</artifactId>
+    <artifactId>chatbot-api-application</artifactId>
     <packaging>jar</packaging>
 
-    <name>chatbot-api-aplication</name>
+    <name>chatbot-api-application</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -19,10 +19,24 @@
 
     <dependencies>
         <dependency>
+            <groupId>cn.huwdg.ai</groupId>
+            <artifactId>chatbot-api-domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.huwdg.ai</groupId>
+            <artifactId>chatbot-api-domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

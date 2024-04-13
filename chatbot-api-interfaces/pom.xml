@@ -96,7 +96,11 @@
             <artifactId>lombok</artifactId>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>cn.huwdg.ai</groupId>
+            <artifactId>chatbot-api-application</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
 </project>

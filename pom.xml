@@ -86,9 +86,10 @@
     <description>chatbot-api</description>
     <modules>
         <module>chatbot-api-domain</module>
-        <module>chatbot-api-aplication</module>
+
         <module>chatbot-api-interfaces</module>
         <module>chat-api-infrastructure</module>
+        <module>chatbot-api-application</module>
     </modules>
     <properties>
         <java.version>21</java.version>
